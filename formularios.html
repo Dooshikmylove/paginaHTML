@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+<div class="sidebar">
+<label for="menu-toggle" class="toggle-btn"><img src="b4.jpeg" alt="" width="50px" height="50px"></label>
+<nav class="menu">
+    <a href="antecedentes.html">Antecedentes</a>
+    <a href="audio.html">Audio</a>
+    <a href="estructurabasica.html">Estructura Basica</a>
+    <a href="etiquetas.html">Etiquetas</a>
+    <a href="extras.html">Extras</a>
+    <a href="formularios.html">Formularios</a>
+    <a href="frames.html">Frames</a>
+    <a href="hipervinculos.html">Hipervinculos</a>
+    <a href="imagen.html">Imagen</a>
+    <a href="lista.html">Lista</a>
+    <a href="meta.html">Meta</a>
+    <a href="semanticas.html">Semanticas</a>
+    <a href="tablas.html">Tabla</a>
+    <a href="texto.html">Texto</a>
+    <a href="video.html">Video</a>
+</nav>
+</div>
+<div class="content">
+</div>
+<center>  
+<h1>FORMULARIOS</h1> </center>
+    Los formularios en HTML son una forma de recopilar datos del usuario y enviarlos a un servidor para su <br>
+    procesamiento. Un formulario típico consta de varios elementos, como: <br>
+    1. *Etiqueta `<form>`*: Define el formulario y especifica el método de envío (GET o POST) y la acción (URL del
+    servidor que procesará los datos). <br>
+    2. *Campos de entrada*: <br>
+    - *`input`*: Permite al usuario ingresar texto, números, fechas, etc. <br>
+    - *`textarea`*: Permite al usuario ingresar texto en un área más grande. <br>
+    - *`select`*: Presenta una lista desplegable de opciones. <br>
+    - *`checkbox`*: Permite al usuario seleccionar una o varias opciones. <br>
+    - *`radio`*: Permite al usuario seleccionar una opción entre varias. <br>
+    3. *Etiquetas*: <br>
+    - *`label`*: Asocia un texto con un campo de entrada. <br>
+    4. *Botones*: <br>
+    - *`input type="submit"`*: Envía el formulario. <br>
+    - *`input type="reset"`*: Restablece los campos del formulario. <br>
+    5. *Atributos*: <br>
+    - *`name`*: Especifica el nombre del campo. <br>
+    - *`type`*: Especifica el tipo de campo (texto, contraseña, etc.). <br>
+    - *`value`*: Especifica el valor predeterminado del campo. <br>
+    Ejemplo básico de un formulario: <br> <br>
+    <form action="/enviar" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+    <input type="submit" value="Enviar">
+    </form>
+    <br>
+    Este es un ejemplo básico, pero los formularios pueden ser mucho más complejos y incluir validaciones,
+    estilos y funcionalidades adicionales. <br> <br>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames</title>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+<div class="sidebar">
+<label for="menu-toggle" class="toggle-btn"><img src="b4.jpeg" alt="" width="50px" height="50px"></label>
+<nav class="menu">
+    <a href="antecedentes.html">Antecedentes</a>
+    <a href="audio.html">Audio</a>
+    <a href="estructurabasica.html">Estructura Basica</a>
+    <a href="etiquetas.html">Etiquetas</a>
+    <a href="extras.html">Extras</a>
+    <a href="formularios.html">Formularios</a>
+    <a href="frames.html">Frames</a>
+    <a href="hipervinculos.html">Hipervinculos</a>
+    <a href="imagen.html">Imagen</a>
+    <a href="lista.html">Lista</a>
+    <a href="meta.html">Meta</a>
+    <a href="semanticas.html">Semanticas</a>
+    <a href="tablas.html">Tabla</a>
+    <a href="texto.html">Texto</a>
+    <a href="video.html">Video</a>
+</nav>
+</div>
+<div class="content">
+</div><center>
+    <h1>FRAMES</h1></center>
+    Los frames (marcos) en HTML son una forma de dividir una página web en varias secciones independientes, <br>
+cada una con su propio contenido. Cada frame es una ventana separada que puede contener un documento <br>
+HTML independiente. <br>
+Los frames se utilizaban comúnmente en el pasado para crear diseños de página más complejos, pero su uso <br>
+ha disminuido en favor de técnicas más modernas como CSS y JavaScript. <br>
+La etiqueta `frameset` se utiliza para definir un conjunto de frames, y la etiqueta `frame` se utiliza para <br>
+definir cada frame individual. La etiqueta `noframes` se utiliza para proporcionar contenido alternativo para <br>
+navegadores que no admiten frames. <br>
+Atributos de la etiqueta `frameset`: <br>
+- `rows`: especifica la altura de cada frame en filas. <br>
+- `cols`: especifica la anchura de cada frame en columnas. <br>
+Atributos de la etiqueta `frame`: <br>
+- `src`: especifica la URL del documento HTML que se carga en el frame. <br>
+- `name`: especifica el nombre del frame. <br>
+- `scrolling`: especifica si se muestra o no la barra de desplazamiento. <br>
+- `border`: especifica el grosor del borde del frame. <br>
+Ejemplo básico de frames: <br>
+<br>
+`frameset rows="50%,50%"` <br>
+`frame src="pagina1.html" name="frame1"` <br>
+`frame src="pagina2.html" name="frame2"` <br>
+`noframes` <br>
+`body` <br>
+Contenido alternativo para navegadores que no admiten frames. <br>
+`/body` <br>
+`/noframes` <br> 
+`/frameset` <br>
+<br><br>
+Este es un ejemplo básico, pero los frames pueden ser configurados de muchas maneras diferentes para crear <br>
+diseños de página más complejos. Sin embargo, como mencioné anteriormente, su uso ha disminuido en favor <br>
+de técnicas más modernas.
+<br><br>
+<img src="frame.jpeg" width="250px" height="250px" alt="">
+</body>
+</html>
