@@ -38,28 +38,29 @@ cada una con su propio contenido. Cada frame es una ventana separada que puede c
 HTML independiente. <br>
 Los frames se utilizaban comúnmente en el pasado para crear diseños de página más complejos, pero su uso <br>
 ha disminuido en favor de técnicas más modernas como CSS y JavaScript. <br>
-La etiqueta `frameset` se utiliza para definir un conjunto de frames, y la etiqueta `frame` se utiliza para <br>
-definir cada frame individual. La etiqueta `noframes` se utiliza para proporcionar contenido alternativo para <br>
+La etiqueta <code>&lt; frameset&gt; </code> se utiliza para definir un conjunto de frames, y la etiqueta <code>&lt; frame&gt; </code> se utiliza para <br>
+definir cada frame individual. La etiqueta <code>&lt; noframes&gt; </code> se utiliza para proporcionar contenido alternativo para <br>
 navegadores que no admiten frames. <br>
-Atributos de la etiqueta `frameset`: <br>
-- `rows`: especifica la altura de cada frame en filas. <br>
-- `cols`: especifica la anchura de cada frame en columnas. <br>
-Atributos de la etiqueta `frame`: <br>
-- `src`: especifica la URL del documento HTML que se carga en el frame. <br>
-- `name`: especifica el nombre del frame. <br>
-- `scrolling`: especifica si se muestra o no la barra de desplazamiento. <br>
-- `border`: especifica el grosor del borde del frame. <br>
+Atributos de la etiqueta <code>&lt;frameset&gt; </code>: <br>
+- <code>&lt;rows&gt; </code>: especifica la altura de cada frame en filas. <br>
+- <code>&lt;cols&gt; </code>: especifica la anchura de cada frame en columnas. <br>
+Atributos de la etiqueta <code>&lt;frame></code>: <br>
+- <code>&lt;src&gt; </code>: especifica la URL del documento HTML que se carga en el frame. <br>
+- <code>&lt;name&gt; </code>: especifica el nombre del frame. <br>
+- <code>&lt;scrolling&gt; </code>: especifica si se muestra o no la barra de desplazamiento. <br>
+- <code>&lt;border&gt; </code>: especifica el grosor del borde del frame. <br>
 Ejemplo básico de frames: <br>
 <br>
-`frameset rows="50%,50%"` <br>
-`frame src="pagina1.html" name="frame1"` <br>
-`frame src="pagina2.html" name="frame2"` <br>
-`noframes` <br>
-`body` <br>
-Contenido alternativo para navegadores que no admiten frames. <br>
-`/body` <br>
-`/noframes` <br> 
-`/frameset` <br>
+
+    <code>&lt;frameset rows="50%,50%"&gt;</code><br>
+        <code>&lt;frame src="pagina1.html" name="frame1"&gt;</code><br>
+            <code>&lt;frame src="pagina2.html" name="frame2"&gt;</code><br>
+                <code>&lt;noframes&gt;</code><br>
+                    <code>&lt;body&gt;</code><br>
+    Contenido alternativo para navegadores que no admiten frames. <br>
+    <code>&lt;/body&gt;</code><br>
+        <code>&lt;/noframes&gt;</code><br>
+            <code>&lt;/frameset                 &gt;</code>
 <br><br>
 Este es un ejemplo básico, pero los frames pueden ser configurados de muchas maneras diferentes para crear <br>
 diseños de página más complejos. Sin embargo, como mencioné anteriormente, su uso ha disminuido en favor <br>
